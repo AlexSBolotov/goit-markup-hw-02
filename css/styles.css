@@ -1,0 +1,87 @@
+/* основний фоновий колір #FFFFFF */
+/* доп фоновий колій #2E2F42 */
+
+/* фон блока команді #F4F4FD */
+
+/* цвет основного текста (заголовки) #2E2F42 */
+/* цвет параграфов, адреса #434455 */
+/* цвет части логотипа #4D5AE5 */
+/* цвет части логотпа внизу #F4F4FD */
+
+/* цвет первого заголовка #FFFFFF */
+/* цвет блока текста в подвале #E7E9FC */
+
+:root {
+  --main-text-color: #2e2f42;
+  --paragraph-text-color: #434455;
+  --accent-color: #404bbf;
+  --white-color: #ffffff;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+  background-color: var(--white-color);
+  color: var(--main-text-color);
+}
+.list {
+  list-style: none;
+}
+a {
+  text-decoration: none;
+  color: currentColor;
+}
+
+/* !!Header!! */
+/* Logo */
+.logo-head {
+}
+.logo-head-part {
+  color: #4d5ae5;
+}
+/* Site navigation */
+.main-nav .link:hover,
+.main-nav .link:focus {
+  color: var(--accent-color);
+}
+/* adress */
+.adress-list {
+  color: var(--paragraph-text-color);
+}
+.adress-mail:hover {
+  color: #404bbf;
+}
+
+/* !!Hero!! */
+.hero {
+  background-color: #2e2f42;
+}
+.hero-title {
+  color: var(--white-color);
+}
+.button {
+  background-color: #4d5ae5;
+  color: var(--white-color);
+}
+
+/* !!Section!! */
+.section-title {
+}
+.section-subtitle {
+}
+.section-text {
+  color: var(--paragraph-text-color);
+}
+
+/* footer */
+.footer {
+  background-color: #2e2f42;
+}
+.logo-foot {
+  color: var(--white-color);
+}
+.logo-foot-part {
+  color: #4d5ae5;
+}
+.footer-text {
+  color: #e7e9fc;
+}
