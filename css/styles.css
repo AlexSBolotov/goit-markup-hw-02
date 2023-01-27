@@ -78,7 +78,6 @@ body {
 }
 .hero-title {
   color: var(--white-color);
-  font-weight: 700;
   font-size: 56px;
   line-height: 107%;
   text-align: center;
@@ -99,7 +98,6 @@ body {
 
 /* !!Section!! */
 .section-title {
-  font-weight: 700;
   font-size: 36px;
   line-height: 111%;
   text-align: center;
@@ -146,10 +144,7 @@ body {
 /* !!!Portfolio Page!!! */
 /* !!Portfolio section!! */
 /* Filter buttons */
-.button-filter.current {
-  background-color: var(--accent-color);
-  color: var(--white-color);
-}
+
 .button-filter {
   color: var(--accent-color-add);
   background-color: var(--not-white-color);
@@ -164,5 +159,9 @@ body {
 .button-filter:hover,
 .button-filter:focus {
   background-color: var(--accent-color-add);
+  color: var(--white-color);
+}
+.button-filter.current {
+  background-color: var(--accent-color);
   color: var(--white-color);
 }
